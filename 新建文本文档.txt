@@ -1,0 +1,7 @@
+import time
+
+A = time.strftime ("%H:%M:%S")
+while A != "20:22:00":
+    A = time.strftime ("%H:%M:%S")
+
+print(A)
